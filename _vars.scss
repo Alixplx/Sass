@@ -1,0 +1,47 @@
+$bodyColor: white;
+$fontSize: 20px;
+
+$linkColor: white;
+$linkHoverColor: #545454;
+$primaryColor: #333;
+$headingColor: rgb(84, 213, 125);
+
+$btnSecondaryBackground: #ff00e6;
+
+// set bg-color based on background
+@function textColor($color) {
+
+    @if(lightness($color) > 70) {
+
+        @return #333;
+    }
+
+    @else {
+
+        @return #fff;
+    }
+}
+
+// set text-color and bg-color based on background
+@mixin backgroundColor($color) {
+
+    background-color: $color;
+    color: textColor($color);
+}
+
+$steps: (
+    1,
+    2,
+    3,
+    4,
+    5,
+    6
+);
+
+@each $step in $steps {
+
+    .my-#{$step} {
+
+        margin: #{$step*10}px 0;
+    }
+}

@@ -1,0 +1,21 @@
+@import 'vars';
+
+%btn {
+
+    display: inline-block;
+    border-radius: 5px;
+    padding: 10px 20px;
+    margin: 5px;
+}
+
+.btn-primary {
+
+    @extend %btn;
+    @include backgroundColor(lighten($primaryColor, 10%));
+}
+
+.btn-secondary {
+
+    @extend %btn;
+    @include backgroundColor(lighten($btnSecondaryBackground, 10%))
+}

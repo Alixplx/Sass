@@ -1,0 +1,114 @@
+.my-1 {
+  margin: 10px 0;
+}
+
+.my-2 {
+  margin: 20px 0;
+}
+
+.my-3 {
+  margin: 30px 0;
+}
+
+.my-4 {
+  margin: 40px 0;
+}
+
+.my-5 {
+  margin: 50px 0;
+}
+
+.my-6 {
+  margin: 60px 0;
+}
+
+.my-1 {
+  margin: 10px 0;
+}
+
+.my-2 {
+  margin: 20px 0;
+}
+
+.my-3 {
+  margin: 30px 0;
+}
+
+.my-4 {
+  margin: 40px 0;
+}
+
+.my-5 {
+  margin: 50px 0;
+}
+
+.my-6 {
+  margin: 60px 0;
+}
+
+.btn-secondary, .btn-primary {
+  display: inline-block;
+  border-radius: 5px;
+  padding: 10px 20px;
+  margin: 5px;
+}
+
+.btn-primary {
+  background-color: #4d4d4d;
+  color: #fff;
+}
+
+.btn-secondary {
+  background-color: #ff33eb;
+  color: #fff;
+}
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+a {
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+}
+
+body {
+  background-color: white;
+  font-size: 20px;
+  line-height: 1.6;
+}
+
+.showcase {
+  background-color: #333;
+  color: #fff;
+  height: 600px;
+}
+.showcase nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.showcase nav ul {
+  display: flex;
+  list-style-type: none;
+}
+.showcase nav ul li {
+  padding: 10px;
+}
+.showcase nav a:hover {
+  color: #545454;
+}
+.showcase-content {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+}/*# sourceMappingURL=style.css.map */

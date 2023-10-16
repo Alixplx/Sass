@@ -1,0 +1,74 @@
+@import 'vars';
+@import 'buttons';
+
+* {
+
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+a {
+
+    @include backgroundColor($primaryColor);
+    text-decoration: none;
+}
+
+body {
+
+    background-color: $bodyColor;
+    font-size: $fontSize;
+    line-height: 1.6;
+}
+
+.showcase {
+
+    // background-color: $primaryColor;
+    // color: textcolor($primaryColor);
+    @include backgroundColor($primaryColor);
+    height: 600px;
+
+    nav {
+
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+        ul {
+
+            display: flex;
+            list-style-type: none;
+
+            li {
+
+                padding: 10px;
+            }
+        }
+
+        a {
+
+            &:hover {
+
+                color: $linkHoverColor;
+            }
+        }
+    }
+
+    &-content {
+
+        height: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+
+
+    }
+
+}
+
+.container {
+
+    max-width: 1000px;
+    margin: 0 auto;
+}
